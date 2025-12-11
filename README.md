@@ -338,15 +338,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- 🐛 [Report Issues](https://github.com/yourusername/PerfPulse/issues)
-- 💡 [Request Features](https://github.com/yourusername/PerfPulse/issues)
-- 📖 [Documentation](https://github.com/yourusername/PerfPulse/wiki)
+- 🐛 [Report Issues](https://github.com/Chaosnico9000/PerfPulse/issues)
+- 💡 [Request Features](https://github.com/Chaosnico9000/PerfPulse/issues)
+- 📖 [Documentation](https://github.com/Chaosnico9000/PerfPulse/wiki)
 
 ## Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+**Chaosnico9000**
+- GitHub: [@Chaosnico9000](https://github.com/Chaosnico9000)
+- Email: nicohinken@gmail.com
 
 ---
 
