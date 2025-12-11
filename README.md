@@ -1,4 +1,4 @@
-# PerfPulse ?
+# PerfPulse ⚡
 
 A lightweight micro-benchmarking tool for .NET methods with detailed performance metrics and beautiful console output.
 
@@ -7,13 +7,13 @@ A lightweight micro-benchmarking tool for .NET methods with detailed performance
 
 ## Features
 
-- ?? **Comprehensive Statistics**: Mean, Median, Min, Max, Standard Deviation, 95th/99th Percentiles
-- ?? **Memory Analysis**: Track memory usage and allocation deltas
-- ??? **GC Monitoring**: Track Garbage Collection counts across all generations
-- ?? **Distribution Histogram**: Visual representation of timing distribution
-- ?? **Export Options**: Export results to CSV or JSON formats
-- ?? **Rich Console UI**: Color-coded output with progress bars and formatted metrics
-- ?? **Two Modes**: Command-line and interactive modes
+- 📊 **Comprehensive Statistics**: Mean, Median, Min, Max, Standard Deviation, 95th/99th Percentiles
+- 💾 **Memory Analysis**: Track memory usage and allocation deltas
+- 🗑️ **GC Monitoring**: Track Garbage Collection counts across all generations
+- 📈 **Distribution Histogram**: Visual representation of timing distribution
+- 💾 **Export Options**: Export results to CSV or JSON formats
+- 🎨 **Rich Console UI**: Color-coded output with progress bars and formatted metrics
+- 🔧 **Two Modes**: Command-line and interactive modes
 
 ## Requirements
 
@@ -111,10 +111,10 @@ PerfPulse help
 PerfPulse provides rich console output including:
 
 ```
-?????????????????????????????????????????????????????????????
-?              PerfPulse - Micro Benchmark Tool             ?
-?           Simple performance testing for .NET methods     ?
-?????????????????????????????????????????????????????????????
+╔═══════════════════════════════════════════════════════════╗
+║              PerfPulse - Micro Benchmark Tool             ║
+║           Simple performance testing for .NET methods     ║
+╚═══════════════════════════════════════════════════════════╝
 
 Assembly            : MyLib.dll
 Type                : MyLib.Calculator
@@ -122,44 +122,44 @@ Method              : Add
 Iterations          : 1000
 Warmup              : 50
 
-? Assembly loaded successfully
-? Method 'Add' found and validated
+✓ Assembly loaded successfully
+✓ Method 'Add' found and validated
 
-? Warming up (50 iterations)... Done!
+⚡ Warming up (50 iterations)... Done!
 
-?? Running benchmark (1000 iterations)...
-[????????????????????????????????????????] 100%
+🔥 Running benchmark (1000 iterations)...
+[████████████████████████████████████████] 100%
 
-?????????????????????????????????????????????????????????????
-?                    BENCHMARK RESULTS                      ?
-?????????????????????????????????????????????????????????????
+╔═══════════════════════════════════════════════════════════╗
+║                    BENCHMARK RESULTS                      ║
+╚═══════════════════════════════════════════════════════════╝
 
-??  Timing Statistics:
-????????????????????????????????????????????????????????????
-  Mean           : 1.23 ?s
-  Median         : 1.20 ?s
-  Min            : 1.05 ?s
-  Max            : 2.45 ?s
-  Std Dev        : 0.15 ?s
-  95th %ile      : 1.50 ?s
-  99th %ile      : 1.85 ?s
+⏱️  Timing Statistics:
+────────────────────────────────────────────────────────────
+  Mean           : 1.23 μs
+  Median         : 1.20 μs
+  Min            : 1.05 μs
+  Max            : 2.45 μs
+  Std Dev        : 0.15 μs
+  95th %ile      : 1.50 μs
+  99th %ile      : 1.85 μs
 
-?? Memory Statistics:
-????????????????????????????????????????????????????????????
+💾 Memory Statistics:
+────────────────────────────────────────────────────────────
   Memory Before  : 2.45 MB
   Memory After   : 2.47 MB
   Memory Delta   : 20.00 KB
 
-???  Garbage Collection:
-????????????????????????????????????????????????????????????
+🗑️  Garbage Collection:
+────────────────────────────────────────────────────────────
   Gen 0          : 0
   Gen 1          : 0
   Gen 2          : 0
 
-?? Distribution Histogram:
-????????????????????????????????????????????????????????????
-  1.05 ?s - 1.12 ?s ????????????? 145
-  1.12 ?s - 1.19 ?s ????????????????????? 234
+📊 Distribution Histogram:
+────────────────────────────────────────────────────────────
+  1.05 μs - 1.12 μs │████████████ 145
+  1.12 μs - 1.19 μs │████████████████████ 234
   ...
 ```
 
@@ -276,12 +276,12 @@ PerfPulse benchmark TestLib.dll TestLib.MathOperations QuickOperation -i 5000
 
 ## Use Cases
 
-? Quick performance checks without heavy framework setup  
-? Comparing algorithm implementations  
-? Regression testing for performance-critical methods  
-? Educational purposes for understanding performance characteristics  
-? CI/CD integration via JSON export  
-? Identifying performance bottlenecks  
+✅ Quick performance checks without heavy framework setup  
+✅ Comparing algorithm implementations  
+✅ Regression testing for performance-critical methods  
+✅ Educational purposes for understanding performance characteristics  
+✅ CI/CD integration via JSON export  
+✅ Identifying performance bottlenecks  
 
 ## Comparison to BenchmarkDotNet
 
@@ -338,9 +338,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- ?? [Report Issues](https://github.com/yourusername/PerfPulse/issues)
-- ?? [Request Features](https://github.com/yourusername/PerfPulse/issues)
-- ?? [Documentation](https://github.com/yourusername/PerfPulse/wiki)
+- 🐛 [Report Issues](https://github.com/yourusername/PerfPulse/issues)
+- 💡 [Request Features](https://github.com/yourusername/PerfPulse/issues)
+- 📖 [Documentation](https://github.com/yourusername/PerfPulse/wiki)
 
 ## Author
 
@@ -350,4 +350,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ?? for the .NET community
+Made with ❤️ for the .NET community
