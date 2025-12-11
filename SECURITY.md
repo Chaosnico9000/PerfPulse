@@ -16,7 +16,7 @@ We take the security of PerfPulse seriously. If you discover a security vulnerab
 ### How to Report
 
 1. **Do NOT** open a public issue
-2. Email security concerns to: your.email@example.com
+2. Email security concerns to: nicohinken@gmail.com
 3. Include the following information:
    - Description of the vulnerability
    - Steps to reproduce
@@ -92,7 +92,8 @@ Check [CHANGELOG.md](CHANGELOG.md) for security-related updates.
 ## Contact
 
 For security-related questions:
-- Email: your.email@example.com
+- Email: nicohinken@gmail.com
 - GitHub Security Advisory: (preferred for sensitive issues)
 
 Thank you for helping keep PerfPulse secure!
+
